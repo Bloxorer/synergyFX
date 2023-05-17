@@ -34,7 +34,7 @@ public class Counter extends Application {
     }
 
     private void handleButtonClick() {
-        count++;
+        count = count + 1;
         countText.setText("Нажатий кнопки: " + count);
     }
 
